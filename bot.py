@@ -9,10 +9,10 @@ class Bot:
         self.genders = open('dict.txt').readlines()
         # create tweepy client
         self.client = twitter.Api(
-            consumer_key="diPtk7uOULeQyyFCzXY6oolW6",
-            consumer_secret="BSSKkZZEmW0R2FYJa1KJZ9P1s9s6rmyz7GwDCsmrPEtHLHPvKx",
-            access_token_key="1383137744163983361-3vAcjxhPz8gPSXH2KcnmceRcX9Sgnn",
-            access_token_secret="h7LCooxND9AQELex2E74jl7gEiJ8SbQpbwH8IoNFKJScS"
+            consumer_key="oXjq6AlzSmQW3QSFrSRKPFnzW",
+            consumer_secret="jpODFpZmtODjfzYjWIe3ja8xQqRptLvKeRynYhqSA3jK0DR1XL",
+            access_token_key="1484347838473465858-jtydBYiP2afKtS5FHxI0fIrHPZGN1C",
+            access_token_secret="PNoctL9wDX1Z0ef8nEWjFoyVZIzp2ShAG1StLEt8Zeq2R"
         )
 
     def runFlag(self):
