@@ -9,4 +9,4 @@ def generateSeededFlag(seed=None, count=3):
     g = generateFlag(count, seed.upper())
     g.run()
 
-generateSeededFlag("cumgender")
+generateSeededFlag("youtube")
